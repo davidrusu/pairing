@@ -15,7 +15,7 @@ repository = "https://github.com/zkcrypto/pairing"
 edition ="2018"
 
 [dependencies]
-group = { version = "0.11", default-features = false }
+group = { git = "https://github.com/davidrusu/group.git", branch = "switch-to-subtle-ng" } # version = "0.11", default-features = false }
 
 [dev-dependencies]
 rand_core = "0.6"
